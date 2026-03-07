@@ -5,14 +5,16 @@ import Home from './components/Home'
 import Work from './components/Work'
 import Stripes from './components/Stripes'
 import Products from './components/Products'
+import Marques from './components/Marques'
 
 const App = () => {
   return (
-    <div className='w-full  bg-zinc-900 text-white'>
+    <div className='w-full  bg-zinc-900 text-white overflow-hidden'>
       <Navbar />
       <Work/>
       <Stripes/>
       <Products/>
+      <Marques/>
     </div>
   )
 }

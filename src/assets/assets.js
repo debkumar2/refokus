@@ -6,6 +6,26 @@ import bannerTextHoverFour from '../assets/images/hoverImageFour.webp';
 import stripeOne from '../assets/images/stripeIconOne.svg';
 import stripeTwo from '../assets/images/stripeIconTwo.svg';
 import stripeThird from '../assets/images/stripeIconThird.svg';
+import marqueOne from '../assets/images/marque_01.svg';
+import marqueTwo from '../assets/images/marque_02.svg';
+import marqueThree from '../assets/images/marque_03.svg';
+import marqueFour from '../assets/images/marque_04.svg';
+import marqueFive from '../assets/images/marque_05.svg';
+import marqueSix from '../assets/images/marque_06.svg';
+import marqueSeven from '../assets/images/marque_07.svg';
+import marqueEight from '../assets/images/marque_08.svg';
+import marqueNine from '../assets/images/marque_09.svg';
+import marqueTen from '../assets/images/marque_10.svg';
+import marqueEleven from '../assets/images/marque_11.svg';
+import marqueTwelve from '../assets/images/marque_12.svg';
+import marqueThirteen from '../assets/images/marque_13.svg';
+import marqueFourteen from '../assets/images/marque_14.svg';
+import marqueFifteen from '../assets/images/marque_15.svg';
+import marqueSixteen from '../assets/images/marque_16.svg';
+import marqueSeventeen from '../assets/images/marque_17.svg';
+import marqueEighteen from '../assets/images/marque_18.svg';
+import marqueNineteen from '../assets/images/marque_19.svg';
+import marqueTwenty from '../assets/images/marque_20.svg';
 const assets = {
     brandLogo,
 }
@@ -81,5 +101,52 @@ export const productData = [
         live: true,
         case: true,
     },
+]
+
+export const marqueImages = [
+    [
+        // marqueOne,
+        marqueTwo,
+        marqueThree,
+        marqueFour,
+        // marqueFive,
+        marqueSix,
+        marqueSeven,
+        marqueEight,
+        marqueNine,
+        marqueTen,
+        marqueEleven,
+        marqueTwelve,
+        marqueThirteen,
+        marqueFourteen,
+        marqueFifteen,
+        marqueSixteen,
+        marqueSeventeen,
+        marqueEighteen,
+        marqueNineteen,
+        marqueTwenty
+    ],
+    [
+        // marqueOne,
+        marqueTwo,
+        marqueThree,
+        marqueFour,
+        // marqueFive,
+        marqueSix,
+        marqueSeven,
+        marqueEight,
+        marqueNine,
+        marqueTen,
+        marqueEleven,
+        marqueTwelve,
+        marqueThirteen,
+        marqueFourteen,
+        marqueFifteen,
+        marqueSixteen,
+        marqueSeventeen,
+        marqueEighteen,
+        marqueNineteen,
+        marqueTwenty
+    ]
 ]
 export default assets;

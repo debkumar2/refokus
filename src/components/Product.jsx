@@ -3,7 +3,7 @@ import ButtonComp from './ButtonComp'
 
 const Product = ({ name, desc, isLive, isCase }) => {
     return (
-        <div className='w-full py-14 text-white  '>
+        <div className='w-full py-14 text-white hover:bg-[#5355ee] transition-all duration-500 hover:translate-1'>
             <div className='max-w-screen-xl mx-auto flex justify-between items-center'>
                 <h2 className='text-5xl font-medium capitalize'>{name}</h2>
                 <div className='w-1/3'>
