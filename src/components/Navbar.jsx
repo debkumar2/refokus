@@ -30,7 +30,7 @@ const Navbar = () => {
                     ))}
                 </div>
             </div>
-            <ButtonComp />
+            <ButtonComp btnText='Get Started'/>
         </div>
     )
 }
