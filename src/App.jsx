@@ -6,6 +6,7 @@ import Work from './components/Work'
 import Stripes from './components/Stripes'
 import Products from './components/Products'
 import Marques from './components/Marques'
+import Cards from './components/Cards'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Stripes/>
       <Products/>
       <Marques/>
+      <Cards/>
     </div>
   )
 }

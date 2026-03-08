@@ -4,7 +4,7 @@ import { stripeData } from '../assets/assets'
 
 const Stripes = () => {
   return (
-    <div className='flex items-center mt-14'>
+    <div className='flex items-center'>
       {stripeData.map((item) => (
         <Stripe imgUrl={item.url} num={item.number} />
       ))}

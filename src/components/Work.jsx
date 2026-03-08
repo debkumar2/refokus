@@ -5,9 +5,9 @@ const Work = () => {
     console.log('');
 
     return (
-        <div className='w-full '>
+        <div className='w-full mt-18'>
             <div className="relative max-w-screen-xl mx-auto text-white text-center">
-                <h1 className='py-4 font-medium xl:text-[28vw] leading-none select-none tracking-tight'>WORK</h1>
+                <h1 className='py-12 font-medium xl:text-[28vw] leading-none select-none tracking-tight'>WORK</h1>
                 <div className='absolute top-0 w-full h-full '>
                     {hoverEffectImg.map((item, index) => (
                         item.isActive && (
