@@ -26,8 +26,10 @@ import marqueSeventeen from '../assets/images/marque_17.svg';
 import marqueEighteen from '../assets/images/marque_18.svg';
 import marqueNineteen from '../assets/images/marque_19.svg';
 import marqueTwenty from '../assets/images/marque_20.svg';
+import webflowPartner from '../assets/images/webflow-partner.webp';
 const assets = {
     brandLogo,
+    webflowPartner
 }
 export const hoverEffectImg = [
     { url: bannerTextHoverOne, top: '2%', left: '45%', isActive: true },
