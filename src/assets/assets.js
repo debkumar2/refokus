@@ -32,7 +32,7 @@ const assets = {
     webflowPartner
 }
 export const hoverEffectImg = [
-    { url: bannerTextHoverOne, top: '2%', left: '45%', isActive: true },
+    { url: bannerTextHoverOne, top: '2%', left: '45%', isActive: false },
     { url: bannerTextHoverTwo, top: '15%', left: '48%', isActive: false },
     { url: bannerTextHoverThree, top: '24%', left: '40%', isActive: false },
     { url: bannerTextHoverFour, top: '30%', left: '52%', isActive: false },

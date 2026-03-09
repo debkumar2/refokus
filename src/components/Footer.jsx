@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='max-w-screen-xl mx-auto py-10'>
                 <div className="flex gap-20">
                     <div className='basis-1/2'>
-                        <span className='text-[10rem] font-semibold leading-none tracking-normal bg-sky-200'>refokus.</span>
+                        <span className='text-[10rem] font-semibold leading-none tracking-normal'>refokus.</span>
                     </div>
                     <div className='basis-1/2'>
                         <div className='flex justify-between items-start'>
