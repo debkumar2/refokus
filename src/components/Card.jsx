@@ -3,7 +3,7 @@ import { BsArrowRight } from 'react-icons/bs'
 
 const Card = ({ width, isHeading, para, hover, subheading, heading, smallText, bigText }) => {
     return (
-        <div className={`bg-zinc-800 p-5 rounded-xl flex flex-col justify-between ${width} ${hover && 'hover:bg-violet-600'} transition-all`}>
+        <div className={`bg-zinc-800 p-5 rounded-xl flex flex-col justify-between ${width} ${hover && 'hover:bg-violet-600'} transition-all hover:px-8 duration-300`}>
             <div className='top w-full'>
                 <div className="w-full flex justify-between items-center">
                     <h4 className='text-sm font-medium'>{subheading}</h4>
